@@ -52,11 +52,21 @@ python BDL.py --data-label-folder-target pseudo_label_folder_name \
               --model DeepLab
 ```
 ### Evaluation
-
+The pre-trained model can be downloaded here [GTA5_deeplab](https://drive.google.com/open?id=1uNIydmPONNh29PeXqCb9MGRAnCWxAu99). You can use the pre-trained model or your own model to make atest as following:
 ```
 python evaluation.py --restore-from ./snapshots/gta2city \
                      --save /path/to/cityscapes/results
 ```
+### Others
+[SYNTHIA as CityScapes](https://drive.google.com/open?id=1d7GxVhyN8HzEIPDeRIB3dRXTYzHI91ng)
+[initial weights of GTA5 for VGG16-FCN](https://drive.google.com/open?id=1Ud27yq6IXPRvcmUkPkLP9DNseTQ5d98D)
+[initial weights of SYNTHIA for VGG16-FCN](https://drive.google.com/open?id=1FGC-_kzPBnSzBj6oq-g_KqdudDt9huV3)
+If you want to use BDL for SYNTHIA dataset or use VGG-FCN model, you can assign '--source synthia' or '--model VGG'
+The pre-trained model for SYNTHIA with DeepLab or VGG can be downloaded here:
+[SYNTHIA_deeplab](https://drive.google.com/open?id=1RGHJ_SRLnCcFRATnaJ3Vx5YNJ7HGkUYI)
+[SYNTHIA_VGG](https://drive.google.com/open?id=1S2_PJCD-LE6YGdusplC3SoBgwdNQ9eN_)
+The pre-trained model for GTA5 with VGG can be downloaded here:
+[GTA5_VGG](https://drive.google.com/open?id=1AsNXc_SzN6FcAxJEKUn-WF4pqoj7o9e0)
 ### Acknowledgment
 This code is heavily borrowed from [AdaptSegNet](https://github.com/wasidennis/AdaptSegNet)
 
