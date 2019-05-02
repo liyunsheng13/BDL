@@ -52,7 +52,7 @@ python BDL.py --data-label-folder-target pseudo_label_folder_name \
               --model DeepLab
 ```
 ### Evaluation
-The pre-trained model can be downloaded here [GTA5_deeplab](https://drive.google.com/open?id=1uNIydmPONNh29PeXqCb9MGRAnCWxAu99). You can use the pre-trained model or your own model to make atest as following:
+The pre-trained model can be downloaded here [GTA5_deeplab](https://drive.google.com/open?id=1uNIydmPONNh29PeXqCb9MGRAnCWxAu99). You can use the pre-trained model or your own model to make a test as following:
 ```
 python evaluation.py --restore-from ./snapshots/gta2city \
                      --save /path/to/cityscapes/results
