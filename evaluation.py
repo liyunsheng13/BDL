@@ -101,6 +101,7 @@ def main():
             print '%d processd' % index
         image, _, name = batch
         output = model(Variable(image).cuda())
+        output = nn.functional.softmax(output, dim=1)
         output = nn.functional.upsample(output, (1024, 2048), mode='bilinear', align_corners=True).cpu().data[0].numpy()
         output = output.transpose(1,2,0)
         output_nomask = np.asarray(np.argmax(output, axis=2), dtype=np.uint8)
