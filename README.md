@@ -1,4 +1,4 @@
-# Bidirectional Learning for Domain Adaptation of Semantic Segmentation
+# Bidirectional Learning for Domain Adaptation of Semantic Segmentation (CVPR 2019)
 A [pytorch](http://pytorch.org/) implementation of [BDL](https://arxiv.org/pdf/1904.10620.pdf).
 If you use this code in your research please consider citing
 >@article{li2019bidirectional,
