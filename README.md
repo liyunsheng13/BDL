@@ -38,7 +38,7 @@ python BDL.py --snapshot-dir ./snapshots/gta2city \
 python SSL.py --data-list-target /path/to/dataset/cityscapes_list/train.txt \
               --restore-from /path/to/SSL_step1_or_SSL_step2 \
               --model DeepLab \ 
-              --save /path/to/cityscapes/cityscapes_ssl
+              --save /path/to/cityscapes/cityscapes_ssl \
               --set train
 ```
 
