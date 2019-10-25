@@ -21,7 +21,7 @@ If you use this code in your research please consider citing
 
 ### Train adaptive segmenation network in BDL
 * Transferred images for CityScapes dataset can be found:
-  * [GTA5 as CityScapes](https://drive.google.com/open?id=1OBvYVz2ND4ipdfnkhSaseT8yu2ru5n5l)
+  * [GTA5 as CityScapes(DeepLab)](https://drive.google.com/open?id=1OBvYVz2ND4ipdfnkhSaseT8yu2ru5n5l)
 * Initial model can be downloaded from [DeepLab-V2](https://drive.google.com/open?id=1TIrTmFKqEyf3pOKniv8-53m3v9SyBK0u)
 * Training example (without self-supervised learning):
 
@@ -70,6 +70,11 @@ The pre-trained model for SYNTHIA with DeepLab or VGG can be downloaded here:
 
 The pre-trained model for GTA5 with VGG can be downloaded here:
 * Download [GTA5_VGG](https://drive.google.com/open?id=1AsNXc_SzN6FcAxJEKUn-WF4pqoj7o9e0) 
+
+The other transferred images can be downloaed here:
+* Download [GTA5 as Cityscapes(VGG)](https://drive.google.com/open?id=15XjJOuLHPinOu4FtYJunIoMQnHiMgpYc) 
+* Download [SYNTHIA as Cityscapes(DeepLab)](https://drive.google.com/open?id=1d7GxVhyN8HzEIPDeRIB3dRXTYzHI91ng)
+* Download [SYNTHIA as Cityscapes(VGG)](https://drive.google.com/open?id=1YlIHqLYTSL-JAGRLA8_9xDvOTnP3zVIs)
 
 ### Acknowledgment
 This code is heavily borrowed from [AdaptSegNet](https://github.com/wasidennis/AdaptSegNet)
