@@ -64,11 +64,11 @@ The different initial models can be downloaded here:
 * Download [initial weights of SYNTHIA for VGG16-FCN](https://drive.google.com/open?id=1FGC-_kzPBnSzBj6oq-g_KqdudDt9huV3)
 
 If you want to use BDL for SYNTHIA dataset or use VGG-FCN model, you can assign '--source synthia' or '--model VGG'
-The pre-trained model for SYNTHIA with DeepLab or VGG can be downloaded here:
+The model for SYNTHIA with DeepLab or VGG can be downloaded here to reproduce the results in the paper:
 * Download [SYNTHIA_deeplab](https://drive.google.com/open?id=1RGHJ_SRLnCcFRATnaJ3Vx5YNJ7HGkUYI)
 * Download [SYNTHIA_VGG](https://drive.google.com/open?id=1S2_PJCD-LE6YGdusplC3SoBgwdNQ9eN_)
 
-The pre-trained model for GTA5 with VGG can be downloaded here:
+The model for GTA5 with VGG can be downloaded here to reproduce the results in the paper:
 * Download [GTA5_VGG](https://drive.google.com/open?id=1AsNXc_SzN6FcAxJEKUn-WF4pqoj7o9e0) 
 
 The other transferred images can be downloaed here:
