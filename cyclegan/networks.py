@@ -3,7 +3,7 @@ import torch.nn as nn
 from torch.nn import init
 import functools
 from torch.optim import lr_scheduler
-from deeplab_multi import DeeplabMulti #lys
+from deeplab import Deeplab #lys
 from collections import OrderedDict #lys
 import torch.nn.functional as F #lys
 from fcn8s_LSD import FCN8s_LSD #lys
