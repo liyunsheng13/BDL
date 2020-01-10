@@ -107,7 +107,7 @@ def define_D(input_nc, ndf, which_model_netD,
     return init_net(netD, init_type, init_gain, gpu_ids)
 
 def semantic(init_weights=None, gpu_ids=0):
-    model = DeeplabMulti(num_classes=19)
+    model = Deeplab(num_classes=19)
     if init_weights is not None:
         saved_state_dict = torch.load(init_weights, map_location=lambda storage, loc: storage)
         model.load_state_dict(saved_state_dict)
