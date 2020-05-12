@@ -3,7 +3,8 @@ Download [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and
 You can use standard folllowing parameters to train it. The initial weights for semantic model for CycleGAN can be downloaded here:
 * Download [CycleGAN_sem](https://drive.google.com/open?id=1ysOLKt7vgRjSOCiw1_R2v15R6-qfl3Fr)
 ```
-python train.py --resize_or_crop scale_width_and_crop --checkpoints_dir /path/to/checkpoints/ 
+python train.py --resize_or_crop scale_width_and_crop
+                --checkpoints_dir /path/to/checkpoints/ 
                 --dataroot datasets/gta2city/ 
                 --model cycle_gan 
                 --display_freq 3000 
