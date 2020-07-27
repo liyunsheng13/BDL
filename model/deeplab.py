@@ -116,7 +116,7 @@ class Classifier_Module(nn.Module):
         out = self.conv2d_list[0](x)
         for i in range(len(self.conv2d_list) - 1):
             out += self.conv2d_list[i + 1](x)
-            return out
+        return out
 
 
 class ResNet101(nn.Module):
